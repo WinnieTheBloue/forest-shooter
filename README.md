@@ -2,14 +2,50 @@
 
 Welcome to the Forest Shooter game repository! This project is a virtual reality (VR) shooting game set in a mystical forest environment. Players can explore the forest, encounter various monsters, and use their skills to survive. The game is built using A-Frame, Vue.js, and Vite for an immersive and interactive VR experience.
 
-## Getting Started
+### Quickstart
 
-To get started with the Forest Shooter game, you'll need to have Node.js installed on your computer. Once you have Node.js, follow these steps:
+### Create a folder for your project and move to it
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory and install the dependencies with `npm install`.
-3. Run the development server with `npm run dev`.
-4. Open your browser and go to `http://localhost:3000` to start playing the game in VR.
+### Clone (or fork, or download)
+
+```sh
+git clone https://github.com/WinnieTheBloue/forest-shooter .
+```
+
+### Install dependencies
+
+```sh
+npm ci
+```
+
+### Dev
+
+```sh
+npm run dev
+```
+
+### Build
+
+```sh
+npm run build
+```
+
+## Notes for local dev on VR headset
+
+1. Check that your development device and your VR headset are connected on **the same network**.
+
+2. Expose you local development:
+
+```sh
+npm run dev-expose
+```
+
+3. In your VR headset, browse to the local development adress `[ip]:[port]`.
+
+> [!NOTE]
+> The certificate is self-signed, so you will probably have to confirm access to the resource in your browser.
+
+---
 
 ## Features
 
