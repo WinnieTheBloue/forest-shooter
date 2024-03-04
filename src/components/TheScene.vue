@@ -128,14 +128,15 @@ const start = (e) => {
       <!-- "Lasers / Pistolet (LASRGun)" (https://www.libertivi.com/lelabodubruiteur_124) by Joseph SARDIN is licensed under Creative Commons Attribution (https://creativecommons.org/licenses/by/3.0/deed.fr). Recorded with Tascam DR-40 and Sennheiser ME66. -->
       <audio id="blast" src="assets/blast.mp3" preload="auto"></audio>
 
-      <!-- "Unnamed Sound" by Joseph SARDIN - Duration: 00:04, Category UCS: Bips/General (BEEP), Type: Sound Only, Mode: Monophonic, Conditions: Computing, Realism: Sound Effects, Sampling Rate: 48,000 Hz, Resolution: 24 Bits. -->
+      <!-- "Bips horaires 3" (https://lasonotheque.org/bips-horaires-3_s1629.html) by Joseph SARDIN is a series of time signal beeps. Duration: 00:04, Category UCS: Bips / General (BEEP), Type: Sound Only, Mode: Monophonic, Conditions: Computing, Realism: Sound Effects, Sampling Rate: 48,000 Hz, Resolution: 24 Bits. -->
       <audio id="ready" src="assets/ready.mp3" preload="auto"></audio>
       <audio id="go" src="assets/go.mp3" preload="auto"></audio>
 
       <!-- "Les Champs Etoilés" (https://soundcloud.com/karol-piczak) by Karol Piczak is licensed under Creative Commons Attribution (https://creativecommons.org/licenses/by/3.0/deed.fr). -->
       <audio id="music" src="assets/music.mp3" preload="auto"></audio>
 
-
+      <!-- "Whoosh 6" (https://lasonotheque.org/whoosh-6_s1799.html) by Joseph SARDIN is a swoosh sound effect. Duration: 00:01, Category UCS: Swooshes / Swish (SWSH), Type: Sound Only, Mode: Stereophonic, Mic Arrangement: ORTF, Conditions: Studio, Realism: Real, Sampling Rate: 48,000 Hz, Resolution: 24 Bits, Equipment: SoundDevices MixPre-3 recorder and Rode NT5 microphones. -->
+      <audio id="whoosh" src="assets/whoosh.mp3" preload="auto"></audio>
 
     </a-assets>
 
