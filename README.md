@@ -4,7 +4,7 @@ Welcome to the Forest Shooter game repository! This project is a virtual reality
 
 ## Academic Context
 
-This project was developed as part of the Virtual Reality elective course (Option Réalité Virtuelle OPT-VR) at HEIG-VD (School of Business and Engineering Vaud), within the Media Engineering program. The project was supervised by Nicolas Chabloz and Jonathan Favre-Lamarine, who provided guidance and support throughout its development.
+This project was developed as part of the Virtual Reality elective course (Option Réalité Virtuelle OPT-VR) at the Haute École d'Ingénierie et de Gestion du Canton de Vaud (HEIG-VD), specifically within the Media Engineering program. The project was supervised by Nicolas Chabloz and Jonathan Favre-Lamarine, who provided guidance and support throughout its development.
 
 ### Quickstart
 
