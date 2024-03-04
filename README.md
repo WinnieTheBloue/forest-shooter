@@ -34,7 +34,7 @@ npm run dev
 npm run build
 ```
 
-## Notes for local dev on VR headset
+## 🕶️ Notes for local dev on VR headset
 
 1. Check that your development device and your VR headset are connected on **the same network**.
 
