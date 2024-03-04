@@ -38,11 +38,10 @@ AFRAME.registerComponent("left-shoot", {
 AFRAME.registerComponent("hit-handler", {
   init: function () {
     const el = this.el;
-    const boom = document.querySelector(".boom");
 
     el.addEventListener("die", function () {
-      boom.components.sound.playSound();
       emits("update-score");
+      document.getElementById("die").components.sound.playSound();
       el.setAttribute("visible", false);
     });
   },
@@ -66,9 +65,15 @@ AFRAME.registerComponent("start", {
 });
 </script>
 <template>
-  <a-entity id="soundShoot" sound="src: #blast"></a-entity>
-
-  <a-entity class="boom" sound="src: #boom"></a-entity>
+  <a-entity
+    id="die"
+    sound="src: #whoosh; poolSize: 10; volume: 8"
+  >
+  </a-entity>
+  <a-entity
+    id="soundShoot"
+    sound="src: #blast; poolSize: 10; volume: 0.6"
+  ></a-entity>
   <a-entity
     id="rightHand"
     hand-controls="hand: right; handModelStyle: lowPoly; color: #ffcccc"
@@ -80,10 +85,6 @@ AFRAME.registerComponent("start", {
       scale="0.05 0.05 0.05"
       right-shoot
       shooter
-    ></a-entity>
-    <a-entity
-      id="soundShootRight"
-      sound="src: #blast; poolSize: 10; on: shoot; volume: 0.6"
     ></a-entity>
   </a-entity>
   <a-entity
@@ -97,7 +98,8 @@ AFRAME.registerComponent("start", {
       scale="0.05 0.05 0.05"
       left-shoot
       shooter
-    ></a-entity>
+    >
+    </a-entity>
   </a-entity>
 
   <a-entity
