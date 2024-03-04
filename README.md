@@ -1,6 +1,10 @@
 # Forest Shooter
 
-Welcome to the Forest Shooter game repository! This project is a virtual reality (VR) shooting game set in a mystical forest environment. Players can explore the forest, encounter various monsters, and use their skills to survive. The game is built using A-Frame, Vue.js, and Vite for an immersive and interactive VR experience.
+Welcome to the Forest Shooter game repository! This project is a virtual reality (VR) shooting game where players face off against monsters appearing from behind a mystical wall. The game is built using A-Frame, Vue.js, and Vite to provide an immersive and interactive VR experience focused on reaction and precision.
+
+## Academic Context
+
+This project was developed as part of the Virtual Reality elective course (Option Réalité Virtuelle OPT-VR) at HEIG-VD (School of Business and Engineering Vaud), within the Media Engineering program. The project was supervised by Nicolas Chabloz and Jonathan Favre-Lamarine, who provided guidance and support throughout its development.
 
 ### Quickstart
 
@@ -9,7 +13,7 @@ Welcome to the Forest Shooter game repository! This project is a virtual reality
 ### Clone (or fork, or download)
 
 ```sh
-git clone https://github.com/WinnieTheBloue/forest-shooter .
+git clone https://github.com/WinnieTheBloue/forest-shooter
 ```
 
 ### Install dependencies
@@ -47,11 +51,23 @@ npm run dev-expose
 
 ---
 
+## Gameplay Controls
+
+### Desktop Mode
+
+- **Move Camera**: Move your mouse to look around.
+- **Shoot**: Click the left mouse button to shoot at the monsters.
+
+### VR Mode
+
+- **Movement**: Look around by moving your head.
+- **Shooting**: You have two pistols in your hands. Use the triggers on your VR controllers to shoot at the monsters.
+
 ## Features
 
-- Immersive VR experience in a mystical forest environment.
-- Encounter and combat various monsters.
-- Interactive game elements built with Vue.js and A-Frame.
+- Engaging VR experience where players defend against monsters emerging from behind a wall.
+- Fast-paced gameplay requiring quick reactions and precision shooting.
+- Interactive game elements built with Vue.js and A-Frame for a seamless VR experience.
 
 ## Assets Attribution
 
