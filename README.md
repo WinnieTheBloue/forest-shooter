@@ -73,16 +73,15 @@ npm run dev-expose
 
 The game utilizes several assets under Creative Commons licenses. Here are the attributions for the assets used:
 
-- **SciFi Gun** by MrFetch is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/). [View asset](https://skfb.ly/DHNN)
-- **Medieval asset02/wall** by hamsterspit is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/). [View asset](https://skfb.ly/69JQZ)
-- **Bread monster model** by 80S5 is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/). [View asset](https://skfb.ly/oIGvY)
-- **Monster** by Matthew Slater is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/). [View asset](https://skfb.ly/oruOv)
-- **Monster Hunter** by Raul Andrés Aguilera Rosales is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/). [View asset](https://skfb.ly/69qv6)
-- **Camping buscraft ambience** by Edgar_koh is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/). [View asset](https://skfb.ly/6V9Ru)
-- **Lasers / Pistolet (LASRGun)** by Joseph SARDIN is licensed under [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/deed.fr). [More info](https://www.libertivi.com/lelabodubruiteur_124)
-- **Les Champs Etoilés** by Karol Piczak is licensed under [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/deed.fr). [Listen on SoundCloud](https://soundcloud.com/karol-piczak)
-- **Unnamed Sound** by Joseph SARDIN is licensed under Creative Commons Attribution. [More info on Joseph SARDIN's work](https://www.libertivi.com/lelabodubruiteur_124)
-
+- [SciFi Gun by MrFetch](https://skfb.ly/DHNN) - Licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+- [Medieval asset02/wall by hamsterspit](https://skfb.ly/69JQZ) - Licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+- [Monster by Matthew Slater](https://skfb.ly/oruOv) - Licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+- [Monster Hunter by Raul Andrés Aguilera Rosales](https://skfb.ly/69qv6) - Licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+- [Camping buscraft ambience by Edgar_koh](https://skfb.ly/6V9Ru) - Licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+- [Lasers / Pistolet (LASRGun) by Joseph SARDIN](https://www.libertivi.com/lelabodubruiteur_124) - Licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.fr)
+- [Les Champs Etoilés by Karol Piczak](https://soundcloud.com/karol-piczak) - Licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.fr)
+- [Bips horaires 3 by Joseph SARDIN](https://lasonotheque.org/bips-horaires-3_s1629.html) - Licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.fr)
+- [Whoosh 6 by Joseph SARDIN](https://lasonotheque.org/whoosh-6_s1799.html) - Licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.fr)
 
 ## 🙏 Acknowledgments
 
