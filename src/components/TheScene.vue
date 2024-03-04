@@ -113,9 +113,6 @@ const start = (e) => {
       <!-- "medieval asset02\wall" (https://skfb.ly/69JQZ) by hamsterspit is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). -->
       <a-asset-item id="wall" src="assets/wall.glb"></a-asset-item>
 
-      <!-- "Bread monster model" (https://skfb.ly/oIGvY) by 80S5 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). -->
-      <a-asset-item id="monster_1" src="assets/monster_1.glb"></a-asset-item>
-
       <!-- "Monster" (https://skfb.ly/oruOv) by Matthew Slater is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). -->
       <a-asset-item id="monster_2" src="assets/monster_2.glb"></a-asset-item>
 
