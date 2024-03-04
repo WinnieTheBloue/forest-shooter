@@ -8,9 +8,8 @@ const props = defineProps({
 const monsters = ref([]);
 
 const monstersIds = [
-  { name: "#monster_1", scale: "0.1 0.1 0.1", rotation: "0 180 0" },
-  { name: "#monster_2", scale: "0.3 0.3 0.3", rotation: "0 0 0" },
-  { name: "#monster_3", scale: "0.15 0.15 0.15", rotation: "0 0 0" },
+  { name: "#monster_2", scale: "0.3 0.3 0.3", rotation: "0 0 0", sound: "src: #mst2; poolSize: 10; volume: 0.6; autoplay: true" },
+  { name: "#monster_3", scale: "0.15 0.15 0.15", rotation: "0 0 0", sound: "src: #mst3; poolSize: 10; volume: 0.6; autoplay: true" },
 ];
 
 const createMonster = (speed) => {
@@ -31,7 +30,7 @@ const createMonster = (speed) => {
 onMounted(() => {
   setInterval(() => {
     createMonster(props.level);
-  }, 500);
+  }, 1000);
 });
 </script>
 <template>
