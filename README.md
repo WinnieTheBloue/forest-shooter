@@ -81,7 +81,7 @@ The game utilizes several assets under Creative Commons licenses. Here are the a
 - **Camping buscraft ambience** by Edgar_koh is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/). [View asset](https://skfb.ly/6V9Ru)
 - **Lasers / Pistolet (LASRGun)** by Joseph SARDIN is licensed under [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/deed.fr). [More info](https://www.libertivi.com/lelabodubruiteur_124)
 - **Les Champs Etoilés** by Karol Piczak is licensed under [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/deed.fr). [Listen on SoundCloud](https://soundcloud.com/karol-piczak)
-- **Unnamed Sound** by Joseph SARDIN - This includes the "ready" and "go" audio cues used in the game. These sounds are licensed under Creative Commons Attribution. [More info on Joseph SARDIN's work](https://www.libertivi.com/lelabodubruiteur_124)
+- **Unnamed Sound** by Joseph SARDIN is licensed under Creative Commons Attribution. [More info on Joseph SARDIN's work](https://www.libertivi.com/lelabodubruiteur_124)
 
 
 ## 🙏 Acknowledgments
