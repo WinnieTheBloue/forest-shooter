@@ -5,6 +5,6 @@
     rotation="-90 0 0"
     data-role="nav-mesh"
     material="color: blue"
-    visible="true"
+    visible="false"
   ></a-entity>
 </template>
