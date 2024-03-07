@@ -12,11 +12,17 @@ import TheFinishScreen from "./TheFinishScreen.vue";
 
 import { getItems, updateItems } from "../utils/localStorage.js";
 
+/**
+ * Defines props received from parent components.
+ * @prop {Number} scale - The scale factor for the game's 3D environment.
+ * @prop {String} overlaySelector - Selector for the game's overlay element.
+ */
 defineProps({
   scale: Number,
   overlaySelector: String,
 });
 
+// State variables to track the game's status, levels, scores, and timers.
 const allAssetsLoaded = ref(false);
 const level = ref(0);
 let score = ref(0);
@@ -26,10 +32,16 @@ const finishScreen = ref(false);
 const countDownIsVisible = ref(false);
 const countDown = ref(5);
 
-
+/**
+ * Function to handle score updates in the game.
+ */
 const handleScoreUpdate = () => {
   score.value += 1;
 };
+
+/**
+ * Starts the game with a timer, checks the score against local storage for level completion, and stops the game when time runs out.
+ */
 const startGame = () => {
   const music = document.querySelector('.music');
   gameHasStarted.value = true;
@@ -55,6 +67,10 @@ const startGame = () => {
   }, 1000);
 };
 
+/**
+ * Prepares and starts the countdown for game start, initializes game settings, and plays the countdown sounds.
+ * @param {Number} e - The level difficulty to set the game level.
+ */
 const start = (e) => {
   const ready1 = document.querySelector('.ready-1');
   const ready2 = document.querySelector('.ready-2');
@@ -85,9 +101,8 @@ const start = (e) => {
     countDown.value -= 1;
   }, 1000);
 };
-
-
 </script>
+
 
 <template>
   <a-scene

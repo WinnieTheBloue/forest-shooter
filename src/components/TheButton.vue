@@ -1,4 +1,17 @@
 <script setup>
+/**
+ * Defines props for configuring the appearance and behavior of a 3D button entity in an A-Frame scene.
+ *
+ * @prop {Number} x - The x-coordinate of the button's position in 3D space.
+ * @prop {Number} y - The y-coordinate of the button's position.
+ * @prop {Number} z - The z-coordinate of the button's position.
+ * @prop {Number} w - The width of the button.
+ * @prop {Number} h - The height of the button.
+ * @prop {String} class - A class name for the button used for identification.
+ * @prop {String} text - The text label displayed on the button.
+ * @prop {String} color - The color of the button.
+ * @prop {Number} best - The best score to display
+ */
 const props = defineProps({
   x: Number,
   y: Number,

@@ -1,6 +1,12 @@
 <script setup>
-import TheButton from './TheButton.vue';
-import { getItem } from '../utils/localStorage';
+import TheButton from "./TheButton.vue";
+import { getItem } from "../utils/localStorage";
+
+/**
+ * Defines the component's props, including flags for the game's state.
+ * @prop {Boolean} gameHasStarted - Indicates if the game has started.
+ * @prop {Boolean} finishScreen - Indicates if the finish screen is currently displayed.
+ */
 const props = defineProps({
   gameHasStarted: Boolean,
   finishScreen: Boolean,

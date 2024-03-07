@@ -1,10 +1,20 @@
 <script setup>
-import { ref } from "vue";
 import { defineEmits } from "vue";
 
+/**
+ * Emits events to the parent component.
+ */
 const emits = defineEmits(["update-score", "start-level"]);
 
+/**
+ * Registers the 'click-to-shoot' component to enable shooting interactions on click events.
+ * This component listens for mouse down events on the entire document body
+ * and emits a 'shoot' event while also playing a shooting sound.
+ */
 AFRAME.registerComponent("click-to-shoot", {
+  /**
+   * Component initialization.
+   */
   init: function () {
     document.body.addEventListener("mousedown", () => {
       this.el.emit("shoot");
@@ -13,7 +23,15 @@ AFRAME.registerComponent("click-to-shoot", {
   },
 });
 
+/**
+ * Registers the 'right-shoot' component for shooting interactions using the right hand controller.
+ * It listens for 'triggerdown' events on the right hand controller
+ * and emits a 'shoot' event while playing a shooting sound.
+ */
 AFRAME.registerComponent("right-shoot", {
+  /**
+   * Component initialization.
+   */
   init: function () {
     const hand = document.getElementById("rightHand");
 
@@ -24,7 +42,15 @@ AFRAME.registerComponent("right-shoot", {
   },
 });
 
+/**
+ * Registers the 'left-shoot' component for shooting interactions using the left hand controller.
+ * It listens for 'triggerdown' events on the left hand controller
+ * and emits a 'shoot' event while playing a shooting sound.
+ */
 AFRAME.registerComponent("left-shoot", {
+  /**
+   * Component initialization.
+   */
   init: function () {
     const hand = document.getElementById("leftHand");
 
@@ -35,7 +61,15 @@ AFRAME.registerComponent("left-shoot", {
   },
 });
 
+/**
+ * Registers the 'hit-handler' component to manage the behavior of hit targets.
+ * Upon receiving a 'die' event, it updates the game score, plays a death sound,
+ * and makes the entity invisible.
+ */
 AFRAME.registerComponent("hit-handler", {
+  /**
+   * Component initialization.
+   */
   init: function () {
     const el = this.el;
 
@@ -47,17 +81,25 @@ AFRAME.registerComponent("hit-handler", {
   },
 });
 
+/**
+ * Registers the 'start' component to handle the initiation of game levels based on difficulty.
+ * It listens for 'hit' events on entities and starts a level with a timeout
+ * determined by the entity's class (easy, normal, hard).
+ */
 AFRAME.registerComponent("start", {
+  /**
+   * Component initialization.
+   */
   init: function () {
     const el = this.el;
 
     el.addEventListener("hit", function () {
       const cl = el.className;
-      if (cl == "easy") {
+      if (cl === "easy") {
         emits("start-level", 3000);
-      } else if (cl == "normal") {
+      } else if (cl === "normal") {
         emits("start-level", 2000);
-      } else if (cl == "hard") {
+      } else if (cl === "hard") {
         emits("start-level", 1000);
       }
     });
@@ -65,11 +107,7 @@ AFRAME.registerComponent("start", {
 });
 </script>
 <template>
-  <a-entity
-    id="die"
-    sound="src: #whoosh; poolSize: 10; volume: 8"
-  >
-  </a-entity>
+  <a-entity id="die" sound="src: #whoosh; poolSize: 10; volume: 8"> </a-entity>
   <a-entity
     id="soundShoot"
     sound="src: #blast; poolSize: 10; volume: 0.6"
