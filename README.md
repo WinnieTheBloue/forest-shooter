@@ -1,8 +1,8 @@
-# 🌲 Forest Shooter
+# 🌲 Forest shooter
 
 Welcome to the Forest Shooter game repository! This project is a virtual reality (VR) shooting game where players face off against monsters appearing from behind a mystical wall. The game is built using A-Frame, Vue.js, and Vite to provide an immersive and interactive VR experience focused on reaction and precision.
 
-## 🎓 Academic Context
+## 🎓 Academic context
 
 This project was developed as part of the Virtual Reality elective course (Option Réalité Virtuelle OPT-VR) at the Haute École d'Ingénierie et de Gestion du Canton de Vaud (HEIG-VD), specifically within the Media Engineering program. The project was supervised by Nicolas Chabloz and Jonathan Favre-Lamarine, who provided guidance and support throughout its development.
 
@@ -51,7 +51,7 @@ npm run dev-expose
 
 ---
 
-## 🎮 Gameplay Controls
+## 🎮 Gameplay controls
 
 ### Desktop Mode
 
@@ -69,7 +69,7 @@ npm run dev-expose
 - Fast-paced gameplay requiring quick reactions and precision shooting.
 - Interactive game elements built with Vue.js and A-Frame for a seamless VR experience.
 
-## 🖼️ Assets Attribution
+## 🖼️ Assets attribution
 
 The game utilizes several assets under Creative Commons licenses. Here are the attributions for the assets used:
 
